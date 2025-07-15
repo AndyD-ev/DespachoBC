@@ -1,0 +1,28 @@
+<script type="module" src="/src/components/lineal_animacion.js"></script>
+
+<style>
+  .line-chart {
+    width: 100%;
+    height: 200px;
+  }
+
+  .line {
+    fill: none;
+    stroke: #4f46e5;
+    stroke-width: 3;
+    stroke-linecap: round;
+  }
+
+  .point {
+    fill: #4f46e5;
+  }
+</style>
+
+<svg viewBox="0 0 100 100" class="line-chart">
+  <path class="line" d="M10 80 L30 50 L50 60 L70 30 L90 40" />
+  <circle class="point" cx="10" cy="80" r="1.5" />
+  <circle class="point" cx="30" cy="50" r="1.5" />
+  <circle class="point" cx="50" cy="60" r="1.5" />
+  <circle class="point" cx="70" cy="30" r="1.5" />
+  <circle class="point" cx="90" cy="40" r="1.5" />
+</svg>
